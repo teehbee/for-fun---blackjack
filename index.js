@@ -1,7 +1,8 @@
-let player = {
-  name: "Tor-Håkon",
-  chips: 145,
-};
+// let player = {
+//   name: "Tor-Håkon",
+//   chips: 145,
+// };
+// For future implementation
 
 let cards = [];
 let sum = 0;
@@ -12,8 +13,9 @@ let blackJackMessage = document.querySelector("#blackjack-message");
 let blackJackSum = document.querySelector("#blackjack-sum");
 let blackJackCards = document.querySelector("#blackjack-cards");
 
-let blackJackPlayer = document.querySelector("#blackjack-player");
-blackJackPlayer.textContent = player.name + ": $" + player.chips;
+// let blackJackPlayer = document.querySelector("#blackjack-player");
+// blackJackPlayer.textContent = player.name + ": $" + player.chips;
+// For future implementation
 
 function getRandomCard() {
   let randomNumber = Math.floor(Math.random() * 13) + 1;
