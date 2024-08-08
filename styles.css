@@ -1,0 +1,41 @@
+/* Blackjack styling */
+
+#blackjack-body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  background-image: url("/table.jpg");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+#blackjack-body h1 {
+  color: goldenrod;
+}
+
+#blackjack-body button {
+  color: #016f32;
+  width: 150px;
+  background: goldenrod;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+
+#message-el {
+  font-style: italic;
+}
+
+#blackjack-container {
+  border: 2px white solid;
+  max-width: 350px;
+  padding: 1rem;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 30px;
+  padding-bottom: 2rem;
+}
